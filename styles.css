@@ -1,6 +1,6 @@
 body {
 	background: black;
-	font-family: "Solitreo", cursive;
+	font-family: "Handlee", cursive;
 }
 * {
 	border: 1px dashed red;
@@ -18,12 +18,11 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
-	margin: 5px;
+	margin: 8px;
 }
 .postcard-header h1 {
 	width: 350px;
-	margin: 5px;
-	vertical-align: middle;
+	margin: 8px;
 }
 .postcard-body {
 	display: flex; /*distribuir los child en forma horizontal */
@@ -33,19 +32,24 @@ body {
 }
 .body-left,
 .body-right {
-	padding: 10px;
+	padding: 8px;
 }
 .body-left {
-	font-size: 13px;
+	font-size: 16px;
 }
 input {
 	border: none;
 	border-bottom: 1px gray solid;
+	width: 160px;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
+	background-color: gray;
+	padding: 5px;
+	font-family: "Handlee", cursive;
+}
+button:hover {
 	background-color: lightgray;
-	padding: 3px;
 }
